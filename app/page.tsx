@@ -138,12 +138,22 @@ export default function DuotoneConverter() {
   const handleDownload = useCallback(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
+
+    const now = new Date();
+    const pad = (n: number) => n.toString().padStart(2, "0");
+    const timestamp = 
+      now.getFullYear().toString() +
+      pad(now.getMonth() + 1) +
+      pad(now.getDate()) +
+      pad(now.getHours()) +
+      pad(now.getMinutes()) +
+      pad(now.getSeconds());
+
     const link = document.createElement("a");
-    const base = filename ? filename.replace(/\.[^/.]+$/, "") : "duotone";
-    link.download = `${base}-duotone.png`;
+    link.download = `${timestamp}-chromavive.png`;
     link.href = canvas.toDataURL("image/png");
     link.click();
-  }, [filename]);
+  }, []);
 
   const handleReset = useCallback(() => {
     setImageSrc(null);
