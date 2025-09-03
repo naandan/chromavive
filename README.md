@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Chromavive
 
-## Getting Started
+Chromavive adalah aplikasi berbasis Next.js untuk mengubah gambar menjadi **efek duotone** dengan tema warna **Brave Pink** dan **Hero Green**.  
+Aplikasi ini simpel, responsif, mobile-friendly, dan mudah digunakan di semua perangkat.
 
-First, run the development server:
+## ✨ Fitur
+- 🎨 Konversi gambar menjadi duotone Brave Pink ↔ Hero Green  
+- 📱 Tampilan modern, mobile-first, dan responsif  
+- 🔧 Slider intensitas untuk mengatur kekuatan efek  
+- ⬇️ Download hasil konversi dalam format PNG  
+- ⚡ Dibangun dengan Next.js, Tailwind CSS, dan shadcn/ui  
+
+## 🚀 Teknologi
+- [Next.js](https://nextjs.org/)  
+- [React](https://react.dev/)  
+- [Tailwind CSS](https://tailwindcss.com/)  
+- [shadcn/ui](https://ui.shadcn.com/)  
+
+## 📦 Instalasi
+
+Clone repository ini:
+
+```bash
+git clone https://github.com/username/chromavive.git
+cd chromavive
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Jalankan development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka [http://localhost:3000](http://localhost:3000) di browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🖼️ Cara Pakai
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Upload gambar dari perangkat.
+2. Atur **intensitas efek duotone** dengan slider.
+3. Klik **Download** untuk menyimpan hasilnya.
