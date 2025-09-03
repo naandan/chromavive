@@ -171,12 +171,16 @@ export default function DuotoneConverter() {
     <div className="p-4 max-w-4xl mx-auto">
       <Card>
         <CardHeader>
-          <CardTitle>Duotone — Brave Pink ↔ Hero Green</CardTitle>
+          <CardTitle className="text-center">Duotone — Brave Pink ↔ Hero Green</CardTitle>
         </CardHeader>
 
         <CardContent>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
+              <p className="mb-4 text-sm text-muted-foreground">
+                Brave Pink Hero Green adalah fenomena sosial di Indonesia di mana warna pink melambangkan keberanian sipil dan hijau menandakan solidaritas serta pengorbanan. Fenomena ini viral di media sosial melalui perubahan foto profil massal.
+              </p>
+
               <Label className="mb-2">Unggah gambar (klik atau seret & lepas)</Label>
 
               <div

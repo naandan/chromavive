@@ -3,6 +3,9 @@
 Chromavive adalah aplikasi berbasis Next.js untuk mengubah gambar menjadi **efek duotone** dengan tema warna **Brave Pink** dan **Hero Green**.  
 Aplikasi ini simpel, responsif, mobile-friendly, dan mudah digunakan di semua perangkat.
 
+**Tentang Brave Pink Hero Green:**  
+Fenomena sosial di Indonesia di mana warna pink melambangkan keberanian sipil dan hijau menandakan solidaritas serta pengorbanan. Warna-warna ini menjadi simbol perlawanan dan solidaritas digital, viral di media sosial melalui perubahan foto profil massal dan filter digital. Chromavive menghadirkan tema ini ke dalam konversi gambar, memungkinkan pengguna mengekspresikan dukungan visual melalui duotone.
+
 ## ✨ Fitur
 - 🎨 Konversi gambar menjadi duotone Brave Pink ↔ Hero Green  
 - 📱 Tampilan modern, mobile-first, dan responsif  
